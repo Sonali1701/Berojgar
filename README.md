@@ -1,7 +1,5 @@
 # Berojgar - Smart Job Application Platform
 
-![Berojgar Logo](static/images/logo.png)
-
 ## Overview
 
 Berojgar is a comprehensive job application platform designed to help job seekers find relevant positions, optimize their resumes for Applicant Tracking Systems (ATS), and streamline the application process. The name "Berojgar" (meaning "unemployed" in Hindi) transforms into "Be-Employed" through our platform's powerful features.
