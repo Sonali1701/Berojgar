@@ -1,0 +1,11 @@
+Job_ID,Required_Skills,Min_Experience,Preferred_Education,Role
+J89,"['SQL', 'Python', 'Java', 'NLP']",0,Masters,Data Scientist
+J45,"['NLP', 'Docker', 'AWS', 'Data Analysis', 'SQL']",1,Masters,ML Engineer
+J92,"['Python', 'SQL', 'Docker']",5,Bachelors,ML Engineer
+J65,"['NLP', 'Docker', 'AWS', 'SQL', 'Data Analysis']",4,Masters,Software Developer
+J50,"['Data Analysis', 'Python', 'SQL', 'AWS']",3,Bachelors,ML Engineer
+J80,"['NLP', 'SQL', 'Java', 'Data Analysis']",2,Masters,Software Developer
+J18,"['Machine Learning', 'Java', 'Data Analysis']",4,PhD,Data Analyst
+J15,"['SQL', 'NLP', 'Java', 'Python', 'Docker']",3,Bachelors,ML Engineer
+J61,"['AWS', 'NLP', 'Docker']",5,Masters,Data Analyst
+J40,"['SQL', 'Python', 'AWS', 'Docker']",5,PhD,Software Developer

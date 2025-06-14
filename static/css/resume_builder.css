@@ -1,0 +1,256 @@
+/* Resume Builder Styles */
+
+/* Template Selection */
+.template-card {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    cursor: pointer;
+}
+
+.template-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #6c63ff;
+}
+
+.template-card.selected {
+    border-color: #6c63ff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.template-preview {
+    height: 200px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.template-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.template-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.template-info h5 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.template-info p {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+.section-title {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9ecef;
+    color: #343a40;
+}
+
+.tab-pane {
+    padding: 20px 0;
+}
+
+.education-entry, .experience-entry, .project-entry {
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.education-entry:hover, .experience-entry:hover, .project-entry:hover {
+    background-color: #f1f3f5;
+}
+
+/* Resume Preview */
+#resume-preview {
+    min-height: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+    font-size: 0.85rem;
+}
+
+/* Resume Templates */
+.resume-template {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Professional Template */
+.resume-professional {
+    font-family: 'Arial', sans-serif;
+}
+
+.resume-professional .resume-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.resume-professional .resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-professional .resume-section-title {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Creative Template */
+.resume-creative {
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume-creative .resume-header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resume-creative .resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-creative .resume-section-title {
+    color: #6c63ff;
+    display: inline-block;
+    border-bottom: 2px solid #6c63ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Minimal Template */
+.resume-minimal {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.resume-minimal .resume-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-minimal .resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-minimal .resume-section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Technical Template */
+.resume-technical {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.resume-technical .resume-header {
+    background-color: #333;
+    color: #00ff00;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+}
+
+.resume-technical .resume-section {
+    margin-bottom: 20px;
+    border-left: 3px solid #00ff00;
+    padding-left: 15px;
+}
+
+.resume-technical .resume-section-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Resume Tips */
+.tip-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.tip-card:hover {
+    background-color: #e9ecef;
+}
+
+.tip-icon {
+    font-size: 2rem;
+    color: #6c63ff;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .template-preview {
+        height: 150px;
+    }
+    
+    #resume-preview {
+        min-height: 300px;
+        margin-top: 20px;
+    }
+    
+    .sticky-top {
+        position: relative;
+        top: 0 !important;
+    }
+}
+
+/* Skill badges */
+.skill-badge {
+    display: inline-block;
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+}
+
+.technical-skill {
+    background-color: #e3f2fd;
+    color: #0d6efd;
+}
+
+.soft-skill {
+    background-color: #f8d7da;
+    color: #dc3545;
+}
+
+.language-skill {
+    background-color: #d1e7dd;
+    color: #198754;
+}
+
+/* Animation for template selection */
+@keyframes templateSelected {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.template-selected-animation {
+    animation: templateSelected 0.5s ease;
+}

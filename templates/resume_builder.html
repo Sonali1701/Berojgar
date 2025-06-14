@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder - Berojgar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/resume_builder.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url_for('index') }}">
+                    <i class="bi bi-briefcase-fill me-2"></i>Berojgar
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('job_search') }}">Job Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ url_for('resume_builder') }}">Resume Builder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('dashboard') }}">Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h1 class="mb-3">Create Your Professional Resume</h1>
+                    <p class="lead">Build a standout resume with our easy-to-use templates and get hired faster</p>
+                </div>
+            </div>
+
+            <!-- Template Selection -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Choose a Template</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <!-- Professional Template -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="professional">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/professional.png') }}" alt="Professional Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Professional</h5>
+                                            <p>Clean design for corporate roles</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="professional">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Executive Template - NEW -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="executive">
+                                        <div class="template-preview premium-template">
+                                            <div class="premium-badge"><i class="bi bi-star-fill"></i> Premium</div>
+                                            <img src="{{ url_for('static', filename='images/templates/professional.png') }}" alt="Executive Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Executive</h5>
+                                            <p>Sophisticated design for senior roles</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="executive">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Modern Template - NEW -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="modern">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/minimal.png') }}" alt="Modern Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Modern</h5>
+                                            <p>Contemporary design with clean layout</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="modern">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Creative Template -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="creative">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/creative.png') }}" alt="Creative Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Creative</h5>
+                                            <p>Stylish design for creative industries</p>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="creative">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <!-- Minimal Template -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="minimal">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/minimal.png') }}" alt="Minimal Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Minimal</h5>
+                                            <p>Simple and elegant for any profession</p>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="minimal">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Technical Template -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="technical">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/technical.png') }}" alt="Technical Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Technical</h5>
+                                            <p>Focused on technical skills</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="technical">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Data-Driven Template - NEW -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="data-driven">
+                                        <div class="template-preview premium-template">
+                                            <div class="premium-badge"><i class="bi bi-star-fill"></i> Premium</div>
+                                            <img src="{{ url_for('static', filename='images/templates/technical.png') }}" alt="Data-Driven Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Data-Driven</h5>
+                                            <p>Analytics-focused with skill visuals</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="data-driven">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Federal Template - NEW -->
+                                <div class="col-md-3 mb-4">
+                                    <div class="template-card" data-template="federal">
+                                        <div class="template-preview">
+                                            <img src="{{ url_for('static', filename='images/templates/professional.png') }}" alt="Federal Template" class="img-fluid">
+                                        </div>
+                                        <div class="template-info">
+                                            <h5>Federal</h5>
+                                            <p>Format optimized for government positions</p>
+                                            <span class="badge bg-success">ATS Optimized</span>
+                                            <button class="btn btn-sm btn-primary select-template mt-2" data-template="federal">Select</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resume Builder Form -->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Resume Details</h5>
+                            <div class="template-indicator">
+                                <span class="badge bg-light text-primary">Template: <span id="selected-template">None</span></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form id="resumeForm">
+                                <!-- Tabs for different sections -->
+                                <ul class="nav nav-tabs mb-4" id="resumeTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-controls="personal" aria-selected="true">
+                                            <i class="bi bi-person me-2"></i>Personal
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="false">
+                                            <i class="bi bi-mortarboard me-2"></i>Education
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="false">
+                                            <i class="bi bi-briefcase me-2"></i>Experience
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">
+                                            <i class="bi bi-gear me-2"></i>Skills
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab" aria-controls="projects" aria-selected="false">
+                                            <i class="bi bi-folder me-2"></i>Projects
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab content -->
+                                <div class="tab-content" id="resumeTabContent">
+                                    <!-- Personal Information -->
+                                    <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                                        <h5 class="section-title">Personal Information</h5>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="fullName" class="form-label">Full Name</label>
+                                                <input type="text" class="form-control" id="fullName" name="fullName" placeholder="John Doe">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="jobTitle" class="form-label">Job Title</label>
+                                                <input type="text" class="form-control" id="jobTitle" name="jobTitle" placeholder="Software Engineer">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="john.doe@example.com">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="phone" class="form-label">Phone</label>
+                                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+1 (123) 456-7890">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="location" class="form-label">Location</label>
+                                                <input type="text" class="form-control" id="location" name="location" placeholder="New York, NY">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="website" class="form-label">Website/LinkedIn</label>
+                                                <input type="url" class="form-control" id="website" name="website" placeholder="https://linkedin.com/in/johndoe">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="summary" class="form-label">Professional Summary</label>
+                                                <textarea class="form-control" id="summary" name="summary" rows="4" placeholder="Experienced software engineer with a passion for developing innovative solutions..."></textarea>
+                                                <div class="form-text">A brief 2-3 sentence overview of your professional background and strengths.</div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3 d-flex justify-content-between">
+                                            <button type="button" class="btn btn-outline-secondary" disabled>Previous</button>
+                                            <button type="button" class="btn btn-primary next-tab">Next: Education</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Education -->
+                                    <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                        <h5 class="section-title">Education</h5>
+                                        <div id="education-container">
+                                            <div class="education-entry mb-4 p-3 border rounded">
+                                                <div class="row g-3">
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Degree</label>
+                                                        <input type="text" class="form-control" name="degree[]" placeholder="Bachelor of Science in Computer Science">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Institution</label>
+                                                        <input type="text" class="form-control" name="institution[]" placeholder="University of Technology">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Location</label>
+                                                        <input type="text" class="form-control" name="eduLocation[]" placeholder="New York, NY">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Graduation Date</label>
+                                                        <input type="text" class="form-control" name="graduationDate[]" placeholder="May 2022">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label">Description (Optional)</label>
+                                                        <textarea class="form-control" name="eduDescription[]" rows="2" placeholder="GPA: 3.8/4.0, Dean's List, Relevant coursework..."></textarea>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-sm btn-outline-danger mt-2 remove-entry">Remove</button>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mb-3" id="add-education">
+                                            <i class="bi bi-plus-circle me-2"></i>Add Another Education
+                                        </button>
+                                        <div class="mt-3 d-flex justify-content-between">
+                                            <button type="button" class="btn btn-outline-secondary prev-tab">Previous: Personal</button>
+                                            <button type="button" class="btn btn-primary next-tab">Next: Experience</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Experience -->
+                                    <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                                        <h5 class="section-title">Work Experience</h5>
+                                        <div id="experience-container">
+                                            <div class="experience-entry mb-4 p-3 border rounded">
+                                                <div class="row g-3">
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Job Title</label>
+                                                        <input type="text" class="form-control" name="expTitle[]" placeholder="Software Engineer">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Company</label>
+                                                        <input type="text" class="form-control" name="company[]" placeholder="Tech Solutions Inc.">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Location</label>
+                                                        <input type="text" class="form-control" name="expLocation[]" placeholder="San Francisco, CA">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Employment Period</label>
+                                                        <input type="text" class="form-control" name="employmentPeriod[]" placeholder="Jan 2020 - Present">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label">Responsibilities & Achievements</label>
+                                                        <textarea class="form-control" name="expDescription[]" rows="4" placeholder="• Developed and maintained web applications using React and Node.js&#10;• Improved application performance by 40% through code optimization&#10;• Collaborated with cross-functional teams to deliver features on time"></textarea>
+                                                        <div class="form-text">Use bullet points (•) to list your achievements. Focus on results and quantify when possible.</div>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-sm btn-outline-danger mt-2 remove-entry">Remove</button>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mb-3" id="add-experience">
+                                            <i class="bi bi-plus-circle me-2"></i>Add Another Experience
+                                        </button>
+                                        <div class="mt-3 d-flex justify-content-between">
+                                            <button type="button" class="btn btn-outline-secondary prev-tab">Previous: Education</button>
+                                            <button type="button" class="btn btn-primary next-tab">Next: Skills</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Skills -->
+                                    <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                                        <h5 class="section-title">Skills</h5>
+                                        <div class="row g-3">
+                                            <div class="col-12">
+                                                <label class="form-label">Technical Skills</label>
+                                                <input type="text" class="form-control" id="technicalSkills" name="technicalSkills" placeholder="JavaScript, Python, React, Node.js, SQL, Git, Docker">
+                                                <div class="form-text">Separate skills with commas. List the most relevant skills first.</div>
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">Soft Skills</label>
+                                                <input type="text" class="form-control" id="softSkills" name="softSkills" placeholder="Communication, Teamwork, Problem Solving, Leadership, Time Management">
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">Languages</label>
+                                                <input type="text" class="form-control" id="languages" name="languages" placeholder="English (Native), Spanish (Intermediate), French (Basic)">
+                                            </div>
+                                            <div class="col-12">
+                                                <label class="form-label">Certifications (Optional)</label>
+                                                <textarea class="form-control" id="certifications" name="certifications" rows="3" placeholder="• AWS Certified Developer - Associate&#10;• Google Cloud Professional Data Engineer&#10;• Scrum Master Certification"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3 d-flex justify-content-between">
+                                            <button type="button" class="btn btn-outline-secondary prev-tab">Previous: Experience</button>
+                                            <button type="button" class="btn btn-primary next-tab">Next: Projects</button>
+                                        </div>
+                                    </div>
+
+                                    <!-- Projects -->
+                                    <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                                        <h5 class="section-title">Projects</h5>
+                                        <div id="project-container">
+                                            <div class="project-entry mb-4 p-3 border rounded">
+                                                <div class="row g-3">
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Project Name</label>
+                                                        <input type="text" class="form-control" name="projectName[]" placeholder="E-commerce Platform">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label class="form-label">Technologies Used</label>
+                                                        <input type="text" class="form-control" name="technologies[]" placeholder="React, Node.js, MongoDB, AWS">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label">Project URL (Optional)</label>
+                                                        <input type="url" class="form-control" name="projectUrl[]" placeholder="https://github.com/username/project">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="form-label">Description</label>
+                                                        <textarea class="form-control" name="projectDescription[]" rows="3" placeholder="• Developed a full-stack e-commerce platform with user authentication and payment processing&#10;• Implemented responsive design and optimized for mobile devices&#10;• Integrated with third-party APIs for shipping and inventory management"></textarea>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-sm btn-outline-danger mt-2 remove-entry">Remove</button>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mb-3" id="add-project">
+                                            <i class="bi bi-plus-circle me-2"></i>Add Another Project
+                                        </button>
+                                        <div class="mt-3 d-flex justify-content-between">
+                                            <button type="button" class="btn btn-outline-secondary prev-tab">Previous: Skills</button>
+                                            <button type="button" class="btn btn-primary" id="generate-resume">Generate Resume</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Resume Preview -->
+                <div class="col-md-4">
+                    <div class="card mb-4 sticky-top" style="top: 20px; z-index: 100;">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Resume Preview</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="resume-preview" class="border p-3 bg-light">
+                                <div class="text-center py-5">
+                                    <i class="bi bi-file-earmark-text display-1 text-muted"></i>
+                                    <p class="mt-3">Select a template and fill in your details to see a preview of your resume</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-grid">
+                                <button type="button" class="btn btn-success" id="download-resume" disabled>
+                                    <i class="bi bi-download me-2"></i>Download Resume
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resume Tips -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Resume Writing Tips</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="tip-card">
+                                        <i class="bi bi-lightbulb tip-icon"></i>
+                                        <h5>Tailor Your Resume</h5>
+                                        <p>Customize your resume for each job application by highlighting relevant skills and experiences that match the job description.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="tip-card">
+                                        <i class="bi bi-graph-up tip-icon"></i>
+                                        <h5>Quantify Achievements</h5>
+                                        <p>Use numbers and percentages to demonstrate your impact (e.g., "Increased sales by 20%" rather than "Increased sales").</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="tip-card">
+                                        <i class="bi bi-check-circle tip-icon"></i>
+                                        <h5>Use Action Verbs</h5>
+                                        <p>Start bullet points with strong action verbs like "Developed," "Implemented," "Led," or "Achieved" to make your accomplishments stand out.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="footer-title">Berojgar</h5>
+                    <p>Your smart job application assistant that helps you find and apply to jobs that match your skills and experience.</p>
+                    <div class="mt-3">
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5 class="footer-title">Links</h5>
+                    <a href="{{ url_for('index') }}" class="footer-link">Home</a>
+                    <a href="{{ url_for('job_search') }}" class="footer-link">Job Search</a>
+                    <a href="{{ url_for('resume_builder') }}" class="footer-link">Resume Builder</a>
+                    <a href="{{ url_for('dashboard') }}" class="footer-link">Dashboard</a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-title">Resources</h5>
+                    <a href="#" class="footer-link">Resume Tips</a>
+                    <a href="#" class="footer-link">Interview Preparation</a>
+                    <a href="#" class="footer-link">Career Advice</a>
+                    <a href="#" class="footer-link">Skill Development</a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-title">Contact</h5>
+                    <p><i class="bi bi-envelope me-2"></i> support@berojgar.com</p>
+                    <p><i class="bi bi-telephone me-2"></i> +1 (123) 456-7890</p>
+                    <p><i class="bi bi-geo-alt me-2"></i> 123 Tech Street, Silicon Valley, CA</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Berojgar. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/resume_builder.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+Candidate_ID,Skills,Experience,Education
+C65,"['Docker', 'NLP', 'Data Analysis', 'AWS', 'Java']",0,PhD
+C83,"['Deep Learning', 'Python', 'Data Analysis', 'Java']",5,Bachelors
+C88,"['Data Analysis', 'Deep Learning', 'Docker', 'Python']",0,Masters
+C73,"['Data Analysis', 'Python', 'Java', 'Docker', 'SQL']",0,Bachelors
+C89,"['Docker', 'Python', 'NLP', 'AWS', 'Java']",2,Bachelors
+C93,"['AWS', 'NLP', 'Data Analysis', 'Deep Learning']",10,Masters
+C49,"['Machine Learning', 'Python', 'AWS', 'Data Analysis', 'Deep Learning']",10,Masters
+C98,"['NLP', 'Deep Learning', 'Docker', 'Machine Learning', 'Java']",9,Bachelors
+C64,"['Docker', 'Java', 'Machine Learning']",1,PhD
+C85,"['Deep Learning', 'NLP', 'Java', 'SQL']",4,PhD
+C52,"['Python', 'AWS', 'Docker']",7,Masters
+C67,"['Python', 'Java', 'Docker', 'Data Analysis', 'NLP', 'Machine Learning']",8,Bachelors
+C92,"['Deep Learning', 'AWS', 'NLP', 'Machine Learning', 'SQL']",8,Bachelors
+C25,"['Deep Learning', 'Data Analysis', 'NLP', 'Machine Learning', 'SQL', 'Python']",9,PhD
+C53,"['Python', 'Java', 'SQL', 'Data Analysis', 'NLP']",4,Bachelors
+C12,"['SQL', 'Machine Learning', 'Python', 'NLP']",0,Bachelors
+C96,"['Deep Learning', 'Docker', 'Data Analysis']",8,Masters
+C77,"['SQL', 'Data Analysis', 'Deep Learning', 'Docker', 'Java']",8,PhD
+C29,"['Java', 'Docker', 'Machine Learning']",9,PhD
+C50,"['AWS', 'Java', 'Docker', 'SQL', 'NLP', 'Machine Learning']",0,Bachelors
+C39,"['Data Analysis', 'SQL', 'Deep Learning']",7,Masters
+C93,"['AWS', 'Data Analysis', 'Python']",2,Bachelors
+C72,"['Python', 'Data Analysis', 'Deep Learning', 'NLP', 'Docker', 'Java']",7,PhD
+C24,"['Java', 'SQL', 'Data Analysis', 'AWS', 'Deep Learning', 'NLP']",2,Masters
+C33,"['AWS', 'NLP', 'Java', 'Data Analysis', 'Docker']",3,Bachelors
+C62,"['Java', 'AWS', 'Docker', 'Deep Learning', 'Data Analysis', 'Python']",6,Masters
+C24,"['Deep Learning', 'Java', 'Machine Learning', 'SQL', 'NLP', 'Python']",4,Bachelors
+C27,"['Python', 'SQL', 'Data Analysis']",5,Masters
+C78,"['Machine Learning', 'SQL', 'NLP']",2,Bachelors
+C9,"['Docker', 'SQL', 'Java', 'AWS', 'Deep Learning', 'NLP']",7,Bachelors
+C16,"['AWS', 'Deep Learning', 'SQL', 'Machine Learning', 'Python', 'Data Analysis']",5,PhD
+C96,"['Java', 'Machine Learning', 'Data Analysis']",5,Masters
+C36,"['Docker', 'Java', 'SQL']",5,Masters
+C23,"['SQL', 'Java', 'Docker', 'Data Analysis', 'NLP', 'Machine Learning']",9,PhD
+C94,"['NLP', 'Data Analysis', 'Deep Learning', 'Java', 'SQL']",7,PhD
+C26,"['Java', 'NLP', 'Data Analysis', 'Machine Learning']",4,Masters
+C97,"['Docker', 'Data Analysis', 'NLP', 'Deep Learning']",3,Masters
+C62,"['Machine Learning', 'Docker', 'NLP']",5,Bachelors
+C11,"['SQL', 'Java', 'Python', 'NLP', 'AWS', 'Deep Learning']",5,PhD
+C26,"['Deep Learning', 'Docker', 'NLP', 'Java']",4,PhD
+C37,"['NLP', 'Python', 'Machine Learning', 'Docker', 'AWS', 'Deep Learning']",7,Bachelors
+C45,"['Deep Learning', 'AWS', 'Java']",9,Bachelors
+C42,"['Data Analysis', 'Deep Learning', 'SQL', 'Docker', 'Java']",3,Masters
+C65,"['SQL', 'Data Analysis', 'NLP', 'Machine Learning', 'AWS']",0,PhD
+C20,"['Machine Learning', 'NLP', 'Java', 'Docker', 'SQL', 'AWS']",4,Masters
+C34,"['AWS', 'Machine Learning', 'Python', 'SQL']",10,PhD
+C31,"['Python', 'AWS', 'SQL']",10,Bachelors
+C82,"['Docker', 'Deep Learning', 'SQL', 'Machine Learning']",2,Masters
+C96,"['Machine Learning', 'Data Analysis', 'Java', 'NLP', 'Python', 'SQL']",5,PhD
+C5,"['Docker', 'AWS', 'SQL', 'Data Analysis', 'Java', 'NLP']",8,PhD
+C17,"['Data Analysis', 'Machine Learning', 'AWS', 'Deep Learning']",9,PhD
+C44,"['AWS', 'Deep Learning', 'Docker', 'SQL', 'Python', 'Machine Learning']",6,PhD
+C43,"['Deep Learning', 'Python', 'Java', 'AWS', 'Data Analysis', 'Docker']",0,Masters
+C79,"['NLP', 'Machine Learning', 'Python']",8,Masters
+C75,"['Data Analysis', 'AWS', 'Python']",10,Bachelors
+C36,"['Python', 'Machine Learning', 'Deep Learning', 'AWS', 'Java', 'NLP']",10,Bachelors
+C17,"['Deep Learning', 'SQL', 'Data Analysis', 'Machine Learning', 'Docker', 'Python']",10,Masters
+C97,"['Machine Learning', 'Data Analysis', 'AWS', 'NLP', 'SQL', 'Python']",10,PhD
+C65,"['Machine Learning', 'SQL', 'Deep Learning']",5,Masters
+C38,"['Java', 'Python', 'Docker']",7,Masters
+C47,"['Java', 'Python', 'Docker', 'Machine Learning', 'SQL', 'AWS']",9,PhD
+C50,"['Java', 'Deep Learning', 'Data Analysis', 'Machine Learning', 'SQL']",10,Masters
+C1,"['Java', 'Python', 'NLP', 'Docker', 'AWS']",6,PhD
+C34,"['Deep Learning', 'SQL', 'AWS', 'Data Analysis', 'Java']",7,PhD
+C63,"['SQL', 'Data Analysis', 'NLP', 'Machine Learning']",5,PhD
+C16,"['AWS', 'Machine Learning', 'Python', 'Deep Learning', 'NLP']",5,PhD
+C24,"['Machine Learning', 'Java', 'Python', 'NLP']",9,Masters
+C31,"['Docker', 'Java', 'SQL', 'Machine Learning', 'Deep Learning']",1,Bachelors
+C68,"['Java', 'Data Analysis', 'Deep Learning', 'NLP', 'Machine Learning']",9,PhD
+C10,"['AWS', 'Data Analysis', 'SQL', 'Java']",9,Bachelors
+C19,"['AWS', 'Machine Learning', 'NLP', 'Java', 'Docker']",2,PhD
+C47,"['Data Analysis', 'Machine Learning', 'AWS', 'Deep Learning', 'Docker', 'NLP']",10,PhD
+C46,"['Deep Learning', 'Data Analysis', 'SQL', 'AWS']",6,Bachelors
+C48,"['Data Analysis', 'Docker', 'SQL', 'Machine Learning']",10,Bachelors
+C23,"['Java', 'NLP', 'Machine Learning', 'Data Analysis']",0,PhD
+C70,"['AWS', 'Docker', 'NLP', 'Deep Learning', 'SQL']",2,PhD
+C63,"['Data Analysis', 'Deep Learning', 'SQL']",4,PhD
+C16,"['SQL', 'NLP', 'Python', 'Deep Learning', 'Data Analysis']",2,Bachelors
+C12,"['Machine Learning', 'AWS', 'Java', 'Docker', 'Deep Learning']",9,Bachelors
+C25,"['Machine Learning', 'SQL', 'Deep Learning', 'Docker']",8,Bachelors
+C26,"['Machine Learning', 'NLP', 'SQL', 'Python', 'Docker', 'Data Analysis']",0,Bachelors
+C21,"['Deep Learning', 'Docker', 'Machine Learning', 'Java', 'NLP']",0,Masters
+C92,"['Java', 'AWS', 'SQL']",7,Bachelors
+C46,"['Data Analysis', 'AWS', 'SQL', 'NLP', 'Deep Learning', 'Machine Learning']",10,Masters
+C69,"['AWS', 'Data Analysis', 'Java', 'NLP']",2,Masters
+C84,"['AWS', 'Machine Learning', 'Docker', 'Data Analysis', 'Python', 'Deep Learning']",10,Masters
+C34,"['AWS', 'NLP', 'Docker', 'Machine Learning']",10,Bachelors
+C63,"['NLP', 'Machine Learning', 'Java', 'AWS']",3,PhD
+C34,"['Machine Learning', 'AWS', 'SQL']",3,Masters
+C96,"['AWS', 'Deep Learning', 'Data Analysis', 'Docker', 'Machine Learning']",3,Bachelors
+C81,"['AWS', 'Deep Learning', 'Python', 'NLP', 'Machine Learning', 'Data Analysis']",9,PhD
+C20,"['SQL', 'Docker', 'Deep Learning', 'AWS', 'Machine Learning']",4,PhD
+C68,"['NLP', 'SQL', 'Data Analysis', 'Python', 'AWS', 'Deep Learning']",8,PhD
+C93,"['Docker', 'Deep Learning', 'Python']",0,PhD
+C9,"['SQL', 'NLP', 'Python', 'Deep Learning', 'Machine Learning', 'AWS']",10,Masters
+C37,"['Machine Learning', 'AWS', 'Python']",7,PhD
+C91,"['Data Analysis', 'Python', 'Machine Learning', 'Java', 'Docker', 'NLP']",9,Masters
+C22,"['SQL', 'Python', 'Java', 'Deep Learning', 'Docker']",6,Masters
+C41,"['Python', 'SQL', 'Data Analysis', 'AWS', 'Machine Learning']",6,PhD
+C83,"['Python', 'NLP', 'Data Analysis', 'Machine Learning']",5,Masters

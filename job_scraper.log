@@ -1,0 +1,362 @@
+2025-05-01 22:28:54,679 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 22:28:56,856 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 22:28:56,857 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 22:28:56,891 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 22:29:03,199 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:03] "GET / HTTP/1.1" 200 -
+2025-05-01 22:29:03,267 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-01 22:29:03,269 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-01 22:29:03,410 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:03] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-01 22:29:08,153 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:08] "GET /job-search HTTP/1.1" 200 -
+2025-05-01 22:29:08,187 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 22:29:08,198 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 22:29:18,278 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-01 22:29:18,278 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-01 22:29:18,278 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-01 22:29:18,290 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:18] "GET /search_jobs?query=AI%20Engineer%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-01 22:29:27,549 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:27] "GET /job_details/github_2_1746118758 HTTP/1.1" 200 -
+2025-05-01 22:29:31,760 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:29:31] "[35m[1mPOST /apply_job HTTP/1.1[0m" 500 -
+2025-05-01 22:36:23,959 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:36:23] "GET /job_details/github_2_1746118758 HTTP/1.1" 200 -
+2025-05-01 22:36:28,246 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:36:28] "[35m[1mPOST /apply_job HTTP/1.1[0m" 500 -
+2025-05-01 22:38:24,010 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-01 22:38:24,352 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 22:38:26,321 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 22:38:26,323 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 22:38:26,359 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 22:48:25,171 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:25] "GET /job-search HTTP/1.1" 200 -
+2025-05-01 22:48:25,265 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 22:48:25,265 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 22:48:41,402 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-01 22:48:41,402 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-01 22:48:41,403 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-01 22:48:41,410 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:41] "GET /search_jobs?query=AI%20Engineer%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-01 22:48:45,188 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:45] "GET /job_details/rss_feeds_9_1746119921 HTTP/1.1" 200 -
+2025-05-01 22:48:50,639 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:48:50] "[35m[1mPOST /apply_job HTTP/1.1[0m" 500 -
+2025-05-01 22:50:44,497 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-01 22:50:44,800 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 22:50:47,106 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 22:50:47,108 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 22:50:47,139 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 22:55:30,742 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:55:30] "GET /job_details/rss_feeds_9_1746119921 HTTP/1.1" 200 -
+2025-05-01 22:55:33,437 - app - INFO - Application submitted for job rss_feeds_9_1746119921 - Software Developer Specialist
+2025-05-01 22:55:33,437 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:55:33] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 22:57:06,195 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:57:06] "GET /job_details/rss_feeds_9_1746119921 HTTP/1.1" 200 -
+2025-05-01 22:57:08,812 - app - INFO - Application submitted for job rss_feeds_9_1746119921 - Software Developer Specialist
+2025-05-01 22:57:08,812 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:57:08] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 22:59:51,327 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:59:51] "GET /job_details/rss_feeds_9_1746119921 HTTP/1.1" 200 -
+2025-05-01 22:59:53,973 - app - INFO - Application submitted for job rss_feeds_9_1746119921 - Software Developer Specialist
+2025-05-01 22:59:53,973 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 22:59:53] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 23:07:15,943 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\job_scraper.py', reloading
+2025-05-01 23:07:16,271 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 23:07:18,415 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 23:07:18,417 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 23:07:18,445 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 23:07:41,988 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-01 23:07:42,679 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 23:07:47,347 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 23:07:47,350 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 23:07:47,382 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 23:11:15,928 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:15] "GET /job-search HTTP/1.1" 200 -
+2025-05-01 23:11:16,024 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:11:16,024 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:11:27,980 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-01 23:11:27,980 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-01 23:11:27,981 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-01 23:11:27,986 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:27] "GET /search_jobs?query=AI%20Engineer%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-01 23:11:31,579 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-01 23:11:31,579 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-01 23:11:31,579 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-01 23:11:31,586 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:31] "GET /search_jobs?query=AI%20Engineer%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-01 23:11:36,551 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:36] "GET /job_details/linkedin_16_1746121291 HTTP/1.1" 200 -
+2025-05-01 23:11:38,676 - app - INFO - Mock application submitted for job undefined - None
+2025-05-01 23:11:38,679 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:38] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 23:11:50,931 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:50] "GET /job_details/indeed_5_1746121291 HTTP/1.1" 200 -
+2025-05-01 23:11:52,769 - app - INFO - Mock application submitted for job undefined - None
+2025-05-01 23:11:52,773 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:11:52] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 23:19:55,158 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:19:55] "GET /job-search HTTP/1.1" 200 -
+2025-05-01 23:19:55,187 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:19:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:19:55,194 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:19:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:20:05,120 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-01 23:20:05,120 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-01 23:20:05,120 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-01 23:20:05,123 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:20:05] "GET /search_jobs?query=AI%20Engineer%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-01 23:20:12,925 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:20:12] "GET /job_details/google_jobs_18_1746121805 HTTP/1.1" 200 -
+2025-05-01 23:20:15,604 - app - INFO - Application submitted for job google_jobs_18_1746121805 - Software Developer Specialist
+2025-05-01 23:20:15,604 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:20:15] "POST /apply_job HTTP/1.1" 200 -
+2025-05-01 23:38:22,642 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-01 23:38:23,103 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 23:38:25,873 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 23:38:25,875 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 23:38:25,906 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 23:38:45,328 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:45] "GET /job-search HTTP/1.1" 200 -
+2025-05-01 23:38:45,444 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:38:45,452 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:38:52,320 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:52] "GET / HTTP/1.1" 200 -
+2025-05-01 23:38:52,358 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:38:52,361 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:38:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:39:22,670 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 23:39:25,350 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 23:39:25,352 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 23:39:25,388 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 23:39:27,132 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:39:27] "GET / HTTP/1.1" 200 -
+2025-05-01 23:39:27,197 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:39:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:39:27,197 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:39:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:39:27,356 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:39:27] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-01 23:45:15,031 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-01 23:45:17,869 - werkzeug - INFO -  * Restarting with stat
+2025-05-01 23:45:20,409 - werkzeug - WARNING -  * Debugger is active!
+2025-05-01 23:45:20,411 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-01 23:45:20,439 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-01 23:45:35,150 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:35] "GET / HTTP/1.1" 200 -
+2025-05-01 23:45:35,251 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:45:35,254 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:45:35,268 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:35] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-01 23:45:39,272 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:39] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-01 23:45:39,307 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:45:39,313 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:39] "GET /static/css/ats_checker.css HTTP/1.1" 200 -
+2025-05-01 23:45:39,315 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:39] "GET /static/js/ats_checker.js HTTP/1.1" 200 -
+2025-05-01 23:45:51,004 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:45:51] "GET /static/images/meter-bg.png HTTP/1.1" 200 -
+2025-05-01 23:46:19,268 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /resume_builder HTTP/1.1" 200 -
+2025-05-01 23:46:19,305 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:46:19,314 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/css/resume_builder.css HTTP/1.1" 200 -
+2025-05-01 23:46:19,316 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/images/templates/professional.png HTTP/1.1" 200 -
+2025-05-01 23:46:19,316 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/images/templates/creative.png HTTP/1.1" 200 -
+2025-05-01 23:46:19,366 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/images/templates/minimal.png HTTP/1.1" 200 -
+2025-05-01 23:46:19,368 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/images/templates/technical.png HTTP/1.1" 200 -
+2025-05-01 23:46:19,370 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:46:19] "GET /static/js/resume_builder.js HTTP/1.1" 200 -
+2025-05-01 23:47:06,945 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:47:06] "GET / HTTP/1.1" 200 -
+2025-05-01 23:47:06,985 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:47:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:47:06,988 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:47:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:47:07,068 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:47:07] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-01 23:57:17,329 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "GET / HTTP/1.1" 200 -
+2025-05-01 23:57:17,355 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-01 23:57:17,360 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-01 23:57:17,361 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-01 23:57:17,509 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-01 23:57:17,511 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-01 23:57:17,513 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-01 23:57:17,523 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:17] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-01 23:57:51,044 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:51] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-01 23:57:51,087 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:57:51,091 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:51] "[36mGET /static/css/ats_checker.css HTTP/1.1[0m" 304 -
+2025-05-01 23:57:51,095 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:57:51] "GET /static/js/ats_checker.js HTTP/1.1" 200 -
+2025-05-01 23:58:01,141 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:58:01] "[36mGET /static/images/meter-bg.png HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,124 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "GET /resume_builder HTTP/1.1" 200 -
+2025-05-01 23:59:28,180 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,186 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/css/resume_builder.css HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,188 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,190 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,249 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,252 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-01 23:59:28,253 - werkzeug - INFO - 127.0.0.1 - - [01/May/2025 23:59:28] "[36mGET /static/js/resume_builder.js HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,087 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "GET / HTTP/1.1" 200 -
+2025-05-02 00:00:16,125 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,130 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,134 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,182 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,185 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,187 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 00:00:16,194 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:16] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-02 00:00:32,861 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:00:32] "POST /set_match_result HTTP/1.1" 200 -
+2025-05-02 00:00:32,910 - WDM - INFO - ====== WebDriver manager ======
+2025-05-02 00:00:33,924 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 00:00:34,660 - WDM - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+2025-05-02 00:00:35,275 - WDM - INFO - Driver downloading response is 200
+2025-05-02 00:00:36,669 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 00:00:38,165 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 00:00:39,294 - WDM - INFO - Driver has been saved in cache [C:\Users\vs510\.wdm\drivers\chromedriver\win64\114.0.5735.90]
+2025-05-02 00:00:42,700 - WDM - INFO - ====== WebDriver manager ======
+2025-05-02 00:00:43,931 - WDM - INFO - Get LATEST edgedriver version for Edge 135.0.3179
+2025-05-02 00:00:44,641 - WDM - INFO - Get LATEST edgedriver version for Edge 135.0.3179
+2025-05-02 00:00:45,304 - WDM - INFO - Get LATEST edgedriver version for Edge 135.0.3179
+2025-05-02 00:00:45,941 - WDM - INFO - About to download new driver from https://msedgedriver.azureedge.net/135.0.3179.98/edgedriver_win64.zip
+2025-05-02 00:00:46,588 - WDM - INFO - Driver downloading response is 200
+2025-05-02 00:00:47,562 - WDM - INFO - Get LATEST edgedriver version for Edge 135.0.3179
+2025-05-02 00:00:48,684 - WDM - INFO - Driver has been saved in cache [C:\Users\vs510\.wdm\drivers\edgedriver\win64\135.0.3179.98]
+2025-05-02 00:02:06,574 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:06] "GET /job-search HTTP/1.1" 200 -
+2025-05-02 00:02:06,607 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 00:02:06,609 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 00:02:09,334 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:09] "POST /predict HTTP/1.1" 200 -
+2025-05-02 00:02:24,537 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 00:02:24,537 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 00:02:24,537 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-02 00:02:24,548 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:24] "GET /search_jobs?query=machine%20learning%20intern&location=Delhi HTTP/1.1" 200 -
+2025-05-02 00:02:32,528 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:32] "GET /job_details/google_jobs_18_1746124344 HTTP/1.1" 200 -
+2025-05-02 00:02:34,913 - app - INFO - Application submitted for job google_jobs_18_1746124344 - Software Developer Specialist
+2025-05-02 00:02:34,913 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:02:34] "POST /apply_job HTTP/1.1" 200 -
+2025-05-02 00:09:42,873 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\job_scraper.py', reloading
+2025-05-02 00:09:43,339 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 00:09:48,073 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 00:09:48,075 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 00:09:48,116 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 00:12:49,023 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\job_scraper.py', reloading
+2025-05-02 00:12:49,434 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 00:12:53,060 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 00:12:53,061 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 00:12:53,107 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 00:20:19,238 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:19] "GET /job-search HTTP/1.1" 200 -
+2025-05-02 00:20:19,371 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:19] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-02 00:20:19,373 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 00:20:30,232 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 00:20:30,232 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 00:20:30,232 - job_scraper - WARNING - Using mock job data due to missing dependencies
+2025-05-02 00:20:30,233 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:30] "GET /search_jobs?query=machine%20learning%20intern&location=Delhi&has_resume=true HTTP/1.1" 200 -
+2025-05-02 00:20:40,679 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:40] "GET /job_details/rss_feeds_14_1746125430 HTTP/1.1" 200 -
+2025-05-02 00:20:43,032 - app - INFO - Application submitted for job rss_feeds_14_1746125430 - Software Developer Specialist
+2025-05-02 00:20:43,034 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:43] "POST /apply_job HTTP/1.1" 200 -
+2025-05-02 00:20:53,360 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:53] "GET /job-search HTTP/1.1" 200 -
+2025-05-02 00:20:53,391 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 00:20:53,394 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 00:20:59,910 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:59] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-02 00:20:59,944 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 00:20:59,948 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:59] "[36mGET /static/css/ats_checker.css HTTP/1.1[0m" 304 -
+2025-05-02 00:20:59,950 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:20:59] "GET /static/js/ats_checker.js HTTP/1.1" 200 -
+2025-05-02 00:21:09,125 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 00:21:09] "[36mGET /static/images/meter-bg.png HTTP/1.1[0m" 304 -
+2025-05-02 15:31:46,189 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:31:48,863 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:31:48,866 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:31:49,799 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:33:11,953 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:33:15,610 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:33:15,612 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:33:15,681 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:33:23,311 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "GET / HTTP/1.1" 200 -
+2025-05-02 15:33:23,469 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-02 15:33:23,472 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 15:33:23,474 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:33:23,670 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 15:33:23,673 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-02 15:33:23,693 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-02 15:33:23,703 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-02 15:33:23,824 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-02 15:33:29,654 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:29] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-02 15:33:29,681 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:33:29,693 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:29] "GET /static/js/ats_checker.js HTTP/1.1" 200 -
+2025-05-02 15:33:29,695 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:29] "[36mGET /static/css/ats_checker.css HTTP/1.1[0m" 304 -
+2025-05-02 15:33:39,034 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:33:39] "[36mGET /static/images/meter-bg.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,120 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "GET /resume_builder HTTP/1.1" 200 -
+2025-05-02 15:34:02,158 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,159 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/css/resume_builder.css HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,164 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,164 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,229 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/js/resume_builder.js HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,229 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,232 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,234 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:02,236 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:02] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,728 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "GET / HTTP/1.1" 200 -
+2025-05-02 15:34:42,776 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,797 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,815 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,832 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,835 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,836 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 15:34:42,847 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:42] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-02 15:34:47,144 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:47] "GET /job-search HTTP/1.1" 200 -
+2025-05-02 15:34:47,174 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:34:47,182 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:34:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 15:34:56,798 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 15:34:56,802 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 15:35:03,910 - job_scraper - ERROR - Error accessing Remotive API: No response
+2025-05-02 15:35:03,911 - job_scraper - INFO - Searching remotive for 'machine learning intern' in 'Delhi'
+2025-05-02 15:35:11,000 - job_scraper - ERROR - Error accessing Remotive API: No response
+2025-05-02 15:35:11,006 - job_scraper - INFO - Found 0 jobs from remotive
+2025-05-02 15:35:11,006 - job_scraper - INFO - Searching adzuna for 'machine learning intern' in 'Delhi'
+2025-05-02 15:35:12,793 - job_scraper - INFO - Found 0 jobs from adzuna
+2025-05-02 15:35:12,793 - job_scraper - INFO - Searching github for 'machine learning intern' in 'Delhi'
+2025-05-02 15:35:13,295 - job_scraper - INFO - Found 5 jobs from github
+2025-05-02 15:35:13,298 - app - INFO - Successfully found 5 real jobs for query 'machine learning intern'
+2025-05-02 15:35:13,301 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:35:13] "POST /api/jobs/search HTTP/1.1" 200 -
+2025-05-02 15:35:45,728 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:35:45] "GET /job_details/github_0_1746180313 HTTP/1.1" 200 -
+2025-05-02 15:35:48,537 - app - INFO - Application submitted for job github_0_1746180313 - Software Developer Specialist
+2025-05-02 15:35:48,540 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:35:48] "POST /apply_job HTTP/1.1" 200 -
+2025-05-02 15:41:20,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:41:20,838 - werkzeug - INFO -  * Detected change in 'c:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:41:20,878 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:41:21,148 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:41:23,475 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:41:23,479 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:41:23,537 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:41:23,800 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:41:23,804 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:41:24,407 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:43:36,571 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:43:36,975 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:43:37,042 - werkzeug - INFO -  * Detected change in 'c:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:43:37,284 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:43:39,119 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:43:39,121 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:43:39,175 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:43:39,502 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:43:39,505 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:43:39,921 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:44:11,453 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:11] "GET /job-search HTTP/1.1" 200 -
+2025-05-02 15:44:11,578 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 15:44:11,580 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:44:22,503 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 15:44:22,504 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 15:44:29,530 - job_scraper - ERROR - Error accessing Remotive API: No response
+2025-05-02 15:44:29,531 - job_scraper - INFO - Searching remotive for 'machine learning intern' in 'Delhi'
+2025-05-02 15:44:37,034 - job_scraper - ERROR - Error accessing Remotive API: No response
+2025-05-02 15:44:37,038 - job_scraper - INFO - Found 0 jobs from remotive
+2025-05-02 15:44:37,038 - job_scraper - INFO - Searching adzuna for 'machine learning intern' in 'Delhi'
+2025-05-02 15:44:38,735 - job_scraper - INFO - Found 0 jobs from adzuna
+2025-05-02 15:44:38,736 - job_scraper - INFO - Searching github for 'machine learning intern' in 'Delhi'
+2025-05-02 15:44:39,237 - job_scraper - INFO - Found 5 jobs from github
+2025-05-02 15:44:39,237 - app - INFO - Successfully found 5 real jobs for query 'machine learning intern'
+2025-05-02 15:44:39,242 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:39] "POST /api/jobs/search HTTP/1.1" 200 -
+2025-05-02 15:44:49,135 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 15:44:49,136 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 15:44:49,140 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:49] "GET /job_details/github_1_1746180879 HTTP/1.1" 200 -
+2025-05-02 15:44:52,011 - app - INFO - Application submitted for job github_1_1746180879 - Software Developer Specialist
+2025-05-02 15:44:52,011 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:44:52] "POST /apply_job HTTP/1.1" 200 -
+2025-05-02 15:45:06,560 - job_scraper - WARNING - Missing dependencies: feedparser
+2025-05-02 15:45:06,560 - job_scraper - WARNING - Some job search features will be limited. Install with: pip install requests beautifulsoup4 feedparser
+2025-05-02 15:45:06,562 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:06] "GET /job_details/github_0_1746180879 HTTP/1.1" 200 -
+2025-05-02 15:45:08,982 - app - INFO - Application submitted for job github_0_1746180879 - Software Developer Specialist
+2025-05-02 15:45:08,986 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:08] "POST /apply_job HTTP/1.1" 200 -
+2025-05-02 15:45:19,873 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:19] "GET / HTTP/1.1" 200 -
+2025-05-02 15:45:19,905 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:45:19,921 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:19] "[36mGET /static/images/templates/professional.png HTTP/1.1[0m" 304 -
+2025-05-02 15:45:19,936 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:19] "[36mGET /static/images/templates/creative.png HTTP/1.1[0m" 304 -
+2025-05-02 15:45:20,019 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:20] "[36mGET /static/images/templates/minimal.png HTTP/1.1[0m" 304 -
+2025-05-02 15:45:20,021 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:20] "[36mGET /static/images/templates/technical.png HTTP/1.1[0m" 304 -
+2025-05-02 15:45:20,023 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-02 15:45:20,037 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:20] "[33mGET /static/images/hero-bg.jpg HTTP/1.1[0m" 404 -
+2025-05-02 15:45:21,847 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:21] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-02 15:45:21,886 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:45:21,890 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:21] "[36mGET /static/css/ats_checker.css HTTP/1.1[0m" 304 -
+2025-05-02 15:45:21,891 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:21] "GET /static/js/ats_checker.js HTTP/1.1" 200 -
+2025-05-02 15:45:29,197 - app - ERROR - Error in resume analysis: name 'secure_filename' is not defined
+2025-05-02 15:45:29,199 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:45:29] "[35m[1mPOST /api/analyze_resume HTTP/1.1[0m" 500 -
+2025-05-02 15:47:13,465 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:47:13,792 - werkzeug - INFO -  * Detected change in 'c:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:47:13,861 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:47:14,132 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:47:16,979 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:47:16,982 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:47:17,044 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:47:17,261 - werkzeug - WARNING -  * Debugger is active!
+2025-05-02 15:47:17,263 - werkzeug - INFO -  * Debugger PIN: 145-524-583
+2025-05-02 15:47:17,920 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-02 15:47:27,890 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:27] "GET /ats_checker HTTP/1.1" 200 -
+2025-05-02 15:47:28,049 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-02 15:47:28,062 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:28] "[36mGET /static/js/ats_checker.js HTTP/1.1[0m" 304 -
+2025-05-02 15:47:28,066 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:28] "[36mGET /static/css/ats_checker.css HTTP/1.1[0m" 304 -
+2025-05-02 15:47:34,438 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:34] "POST /api/analyze_resume HTTP/1.1" 200 -
+2025-05-02 15:47:34,472 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:34] "[36mGET /static/images/meter-bg.png HTTP/1.1[0m" 304 -
+2025-05-02 15:47:56,665 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:47:56] "POST /api/analyze_resume HTTP/1.1" 200 -
+2025-05-02 15:48:05,899 - werkzeug - INFO - 127.0.0.1 - - [02/May/2025 15:48:05] "POST /api/analyze_resume HTTP/1.1" 200 -
+2025-05-02 15:49:09,490 - werkzeug - INFO -  * Detected change in 'C:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:49:09,792 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:49:10,610 - werkzeug - INFO -  * Detected change in 'c:\\Users\\vs510\\PycharmProjects\\Berojgar\\app.py', reloading
+2025-05-02 15:49:11,042 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:55:58,090 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:55:58,847 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:56:13,487 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 15:56:14,945 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:11:59,740 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:12:00,960 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:14:56,188 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:14:56,602 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:26:13,226 - werkzeug - INFO -  * Restarting with stat
+2025-05-02 16:26:14,630 - werkzeug - INFO -  * Restarting with stat
